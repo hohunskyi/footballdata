@@ -25,7 +25,7 @@ OpenSource library that allows to fetch and parse data from http://www.football-
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Volodymyr Hohunskyi' => 'volodymyr.hohunskyi@gmail.com' }
-  s.source           = { :git => 'https://github.com/gogunskiy/FootballData.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hohunskyi/footballdata.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
