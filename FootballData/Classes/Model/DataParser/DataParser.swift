@@ -15,8 +15,10 @@ public class DataParser: NSObject {
         var competitions = Array <Competition>()
        
         if  let object = object(data: data) {
-            for json in (object as! Array<Dictionary<String, AnyObject>>) {
-                competitions.append(fulfillCompetition(json: json))
+            if let jsons = object as? Array<Dictionary<String, AnyObject>> {
+                for json in jsons {
+                    competitions.append(fulfillCompetition(json: json))
+                }
             }
         }
     

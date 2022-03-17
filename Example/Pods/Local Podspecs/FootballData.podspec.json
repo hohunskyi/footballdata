@@ -1,18 +1,18 @@
 {
   "name": "FootballData",
   "version": "0.1.0",
-  "summary": "OpenSource Fetcher of http://www.football-data.org.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/FootballData",
+  "summary": "OpenSource library that allows to fetch and parse data from http://www.football-data.org.",
+  "description": "OpenSource library that allows to fetch and parse data from http://www.football-data.org.",
+  "homepage": "https://github.com/gogunskyi/FootballData",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Volodymyr Hohunskyi": "volodymyr.hohunskyi@accenture.com"
+    "Volodymyr Hohunskyi": "volodymyr.hohunskyi@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/FootballData.git",
+    "git": "https://github.com/hohunskyi/footballdata.git",
     "tag": "0.1.0"
   },
   "platforms": {
