@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        // cooo
         let manager = FDManager()
         manager.fetchAllCompetitions(season: 2015) { (competitions) in
             print(competitions)

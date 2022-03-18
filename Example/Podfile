@@ -1,9 +1,10 @@
 use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'FootballData_Example' do
   pod 'Alamofire', '~> 4.5'
+  pod 'Kingfisher', '~> 7.0'
   pod 'FootballData', :path => '../'
 
   target 'FootballData_Tests' do

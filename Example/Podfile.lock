@@ -1,14 +1,17 @@
 PODS:
   - Alamofire (4.5.1)
   - FootballData (0.1.0)
+  - Kingfisher (7.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - FootballData (from `../`)
+  - Kingfisher (~> 7.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Kingfisher
 
 EXTERNAL SOURCES:
   FootballData:
@@ -17,7 +20,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   FootballData: d80400155395206f8f65d354f89fe5ae43dd5a27
+  Kingfisher: 5efc54fec3980f92354898532e562cc17f31efb4
 
-PODFILE CHECKSUM: 80ecb49dffa9fa320e98772ed75a1e4250a4a172
+PODFILE CHECKSUM: 2be3a83bc764c36b4796ab30a0262206cba423ad
 
 COCOAPODS: 1.10.1
