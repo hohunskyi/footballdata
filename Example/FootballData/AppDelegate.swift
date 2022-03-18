@@ -8,6 +8,8 @@
 
 import UIKit
 
+// TEST
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
